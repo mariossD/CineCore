@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="roll_back" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                      <Component id="delete_table" alignment="0" min="-2" pref="136" max="-2" attributes="0"/>
+                      <Component id="create_table" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="139" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+              <Component id="create_table" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Component id="delete_table" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="78" max="32767" attributes="0"/>
+              <Component id="roll_back" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="create_table">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x394;&#x3b7;&#x3bc;&#x3b9;&#x3bf;&#x3c5;&#x3c1;&#x3b3;&#x3af;&#x3b1; &#x3a0;&#x3af;&#x3bd;&#x3b1;&#x3ba;&#x3b1;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="create_tableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="delete_table">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x394;&#x3b9;&#x3b1;&#x3b3;&#x3c1;&#x3b1;&#x3c6;&#x3ae; &#x3a0;&#x3af;&#x3bd;&#x3b1;&#x3ba;&#x3b1;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="delete_tableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="roll_back">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x3a0;&#x3af;&#x3c3;&#x3c9;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="roll_backActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
