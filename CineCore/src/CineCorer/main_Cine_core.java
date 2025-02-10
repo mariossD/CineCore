@@ -17,7 +17,7 @@ public class main_Cine_core extends javax.swing.JFrame {
     static String     url = "jdbc:postgresql://dblabs.iee.ihu.gr:5432/it144281" ;
     static Connection dbConnection    = null;
     static String     username = "it144281";
-    static String     passwd = "Tsalapetinos23!";
+    static String     passwd = "****";// ask me for the password
     
     
     public main_Cine_core() throws Exception {
